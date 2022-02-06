@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Pharmacy</h1>
+        <nav id="navId">
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li ><a href="">Our Medicines</a>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="">Fever</a></li>
+                            <li><a href="">Muscle</a></li>
+                            <li><a href="">Pains</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">Health Care</a>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="">Baby Care</a></li>
+                            <li><a href="">Skin Care</a></li>
+                            <li><a href="">Home Care</a></li>
+                            <li><a href="">Personal Care</a></li>
+                            <li><a href="">Pet Care</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="form.html">Lab Test</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- form Body start-->
+    <div class=" container">
+        <div class="form">
+            <div class="form-form">
+                <form>
+                    <div class="form-div">
+                        <div class="form-layout ">
+                                <div class="form-text">
+                                    1. Your Contact Details
+                                </div>
+                                <div class="form-input">
+                                    <input type="text" id=""  placeholder="Full Name" name="fullName">
+                                    <input type="text" id="" placeholder="Patient Id if exists" name="patientId">
+                                </div>
+                                <div class="form-input">
+                                    <input type="text" id="" placeholder="Contact Number" name="contactNumber">
+                                    <input type="text" id="" placeholder="Email Id" name="emailId">
+                                </div>
+
+                                <div class="form-text">
+                                    2. Address
+                                </div>
+                                <div class="form-input">
+                                    <input type="text" id=""  placeholder="House Number" name="houseNumber">
+                                    <input type="text" id="" placeholder="Street" name="street">
+                                </div>
+                                <div class="form-input">
+                                    <input type="text" id="" placeholder="Area" name="area">
+                                </div>
+                                <div class="form-text">
+                                    <label for="fname">District:</label><br><br>
+                                    <select id="" name="District">
+                                        <option value="Choose">Choose</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-text">
+                                    3. Choose the Test Type
+                                </div>
+                                <div class="form-text">
+                                    <input type="checkbox" id="cBC" name="CBC" value="CBC">
+                                    <label for="testtype1"> CBC</label><br>
+                                    <input type="checkbox" id="completeUrine" name="cBC" value="Complete Urine">
+                                    <label for="testtype2"> Complete Urine</label><br>
+                                    <input type="checkbox" id="lipidProfile" name="lipidProfile" value="Lipid Profile">
+                                    <label for="testtype3"> Lipid Profile</label><br>
+                                    <input type="checkbox" id="tSH" name="tSH" value="TSH">
+                                    <label for="testtype4"> Thyroid Stimulating Hormone(TSH)</label><br>
+                                    <input type="checkbox" id="glucoseTest" name="glucoseTest" value="Glucose Test">
+                                    <label for="testtype5"> Glucose Test</label><br><br>
+                                </div>
+
+                                <div class="form-text">
+                                    4. Do you want a hard copy of the report also?
+                                </div>
+                                <div class="form-text">
+                                    <input type="radio" id="" name="hardcopy" value="yes">
+                                    <label >Yes</label><br>
+                                    <input type="radio" id="" name="hardcopy" value="no">
+                                    <label ">No</label><br>
+                                </div>
+
+                                <div class="form-text">
+                                    5. Select Your Comfortable Date and Time
+                                </div>
+                                <div class="form-text">
+                                    <label class="mb-5" >Date</label>
+                                    <input class="mb-5" type="date" id="" name="date">
+                                    <br>
+                                    <label class="mb-20" >Time</label>
+                                    <input class="mb-20" type="time" id="" name="time">
+                                </div>
+                        </div>
+                        <div class="form-img">
+                            <img src="Images/Lab-Test/lab-test.jpg" alt="">
+                        </div>  
+                    </div>
+                    <input type="submit" value="Submit">
+                    <input type="reset">
+
+
+                </form>
+                
+            </div>
+            
+        </div>
+    </div>
+    <!-- form Body end-->
+
+
+
+    <footer>
+        <p>
+            @copyright. Only for demonstration purposes
+        </p>
+    </footer>
+</body>
+</html>
